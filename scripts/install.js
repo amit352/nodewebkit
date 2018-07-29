@@ -17,7 +17,7 @@ if (v.prerelease && typeof v.prerelease[0] === 'string') {
   version += '-' + prerelease.join('-');
 }
 var url = false;
-var urlBase = 'http://dl.node-webkit.org/v';
+var urlBase = 'http://dl.nwjs.io/v';
 
 // Determine download url
 switch (process.platform) {
